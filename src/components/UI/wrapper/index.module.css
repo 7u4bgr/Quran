@@ -1,0 +1,24 @@
+.div {
+  width: 98%;
+  margin: auto;
+}
+.div .divpt {
+  padding: 0 25px;
+}
+
+@media (min-width: 768px) {
+  .div {
+    width: 90%;
+  }
+  .div .divpt {
+    padding: 0 85px;
+  }
+}
+@media (min-width: 992px) {
+  .div {
+    width: 85%;
+  }
+  .div .divpt {
+    padding: 0 135px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

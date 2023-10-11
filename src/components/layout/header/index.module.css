@@ -1,0 +1,87 @@
+.background {
+  background: #e9e6d7;
+  padding-bottom: 3px;
+}
+.background .div .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.background .div .nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background .div .nav .logo .icons {
+  padding-left: 207px;
+}
+.background .div .nav ul {
+  display: none;
+}
+.background .div .nav ul li {
+  color: #556561;
+  text-align: center;
+  /* P2 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.background .div .nav .login {
+  display: none;
+  gap: 20px;
+}
+.background .div .nav .login .button1 {
+  background-color: transparent;
+  color: #1c3f39;
+  border: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.background .div .nav .login .button2 {
+  width: 117px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #26534c;
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  border: none;
+}
+.background .div .hr {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .background .div .nav ul {
+    display: none;
+  }
+  .background .div .nav .login {
+    display: flex;
+  }
+}
+@media (min-width: 992px) {
+  .background .div .nav ul {
+    display: flex;
+    gap: 44px;
+  }
+  .background .div .nav .login {
+    display: flex;
+  }
+  .background .div .hr {
+    display: block;
+    background: #556561;
+    height: 1px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

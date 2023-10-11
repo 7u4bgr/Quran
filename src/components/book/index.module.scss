@@ -1,0 +1,224 @@
+.background {
+  background: #e9e6d7;
+
+  .images {
+    display: flex;
+    justify-content: space-between;
+    .image1 {
+      display: none;
+    }
+    .image2 {
+      width: 390px;
+      flex-shrink: 0;
+    }
+  }
+  .div {
+    .text {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 50px;
+
+        width: 339px;
+        color: #1c3f39;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+      }
+      .ellipse {
+        position: absolute;
+        left: 179px;
+        top: 136px;
+      }
+      p {
+        position: absolute;
+        width: 339px;
+        color: #556561;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        top: 200px;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      .button1 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #1c3f39;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
+      .button2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #1c3f39;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
+    }
+    .qurans {
+      position: relative;
+      .quran {
+        position: absolute;
+        top: 369px;
+        width: 195px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 12px 12px 0px 0px;
+        background: lightgray 50% / cover no-repeat;
+      }
+      .readquran {
+        position: absolute;
+        top: 369px;
+        left: 200px;
+        width: 136px;
+        height: 160px;
+        flex-shrink: 0;
+        border-radius: 12px 12px 0px 0px;
+        background: lightgray 50% / cover no-repeat;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .background {
+    background: #e9e6d7;
+
+    .images {
+      display: flex;
+      justify-content: center;
+    }
+    .div {
+      .text {
+        position: relative;
+        h2 {
+          position: absolute;
+          top: 50px;
+
+          width: 539px;
+          color: #1c3f39;
+          text-align: center;
+          font-family: Manrope;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 56px;
+        }
+        .ellipse {
+          position: absolute;
+          width: 160px;
+          left: 310px;
+          top: 100px;
+        }
+        p {
+          width: 600px;
+          font-size: 16px;
+          top: 180px;
+        }
+      }
+      .qurans {
+        .quran {
+          position: absolute;
+          top: 319.2px;
+          width: 255px;
+          height: 210px;
+        }
+        .readquran {
+          position: absolute;
+          top: 319.2px;
+          left: 270px;
+          width: 225px;
+          height: 210px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .background {
+    background: #e9e6d7;
+    .images {
+      display: flex;
+      justify-content: space-between;
+      .image1 {
+        display: flex;
+        height: 839px;
+      }
+      .image2 {
+        width: 670px;
+        height: 839px;
+      }
+    }
+    .div {
+      .text {
+        position: relative;
+        h2 {
+          position: absolute;
+          top: 50px;
+          left: 324px;
+          width: 700px;
+          color: #1c3f39;
+          text-align: center;
+          font-family: Manrope;
+          font-size: 64px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 72px;
+        }
+        .ellipse {
+          position: absolute;
+          width: 210px;
+          left: 730px;
+          top: 112px;
+        }
+        p {
+          width: 670px;
+          font-family: Manrope;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          left: 339px;
+          top: 210px;
+        }
+      }
+      .qurans {
+        .quran {
+          position: absolute;
+          top: 395px;
+          width: 670px;
+          height: 444px;
+          flex-shrink: 0;
+        }
+        .readquran {
+          position: absolute;
+          top: 395px;
+          left: 700px;
+          width: 470px;
+          height: 444px;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}

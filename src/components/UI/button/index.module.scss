@@ -1,0 +1,37 @@
+.yellowbutton {
+  border-radius: 6px;
+  background: #f2ac0d;
+  padding: 12px 15px;
+  border: none;
+  position: absolute;
+  top:350px ;
+}
+.transparentbutton{
+  background-color: transparent;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #556561;
+  position: absolute;
+  left: 200px;
+  top:350px ;
+}
+@media(min-width:768px){
+  .yellowbutton{
+    top: 32%;
+    left: 235px;
+  }
+  .transparentbutton{
+    top: 32%;
+    left: 400px;
+  }
+}
+@media(min-width:992px){
+  .yellowbutton{
+    top: 43%;
+    left: 770px;
+  }
+  .transparentbutton{
+    top: 43%;
+    left: 50%;
+  }
+}

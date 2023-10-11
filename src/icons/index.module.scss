@@ -1,0 +1,15 @@
+.icon{
+    display: flex;
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  @media(min-width:768px){
+    .icon{
+        display: none;
+      }
+  }
+  @media(min-width:992px){
+    .icon{
+        display: none;
+      }
+  }
