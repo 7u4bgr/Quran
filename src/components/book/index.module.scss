@@ -1,9 +1,10 @@
 .background {
   background: #e9e6d7;
-
+position: relative;
   .images {
     display: flex;
     justify-content: space-between;
+    position: absolute;
     .image1 {
       display: none;
     }
@@ -15,10 +16,8 @@
   .div {
     .text {
       position: relative;
+      padding-top: 45px;
       h2 {
-        position: absolute;
-        top: 50px;
-
         width: 339px;
         color: #1c3f39;
         text-align: center;
@@ -27,14 +26,15 @@
         font-style: normal;
         font-weight: 700;
         line-height: 46px;
+        margin-bottom: 12px;
       }
       .ellipse {
         position: absolute;
-        left: 179px;
-        top: 136px;
+        left: 177px;
+        top: 131px;
       }
       p {
-        position: absolute;
+       
         width: 339px;
         color: #556561;
         text-align: center;
@@ -43,12 +43,13 @@
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        top: 200px;
+    
       }
     }
     .buttons {
       display: flex;
       justify-content: space-between;
+      z-index: 20;
       .button1 {
         display: flex;
         align-items: center;
@@ -106,13 +107,15 @@
     .images {
       display: flex;
       justify-content: center;
+      left: 50%;
+      transform: translate(-50%);
     }
     .div {
       .text {
         position: relative;
         h2 {
-          position: absolute;
-          top: 50px;
+          
+          
 
           width: 539px;
           color: #1c3f39;
@@ -126,8 +129,8 @@
         .ellipse {
           position: absolute;
           width: 160px;
-          left: 310px;
-          top: 100px;
+          left: 312px;
+          top: 95px;
         }
         p {
           width: 600px;
@@ -159,9 +162,12 @@
     background: #e9e6d7;
     .images {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      gap: 100px;
+      width: 100%;
       .image1 {
         display: flex;
+        
         height: 839px;
       }
       .image2 {
@@ -171,11 +177,13 @@
     }
     .div {
       .text {
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         h2 {
-          position: absolute;
-          top: 50px;
-          left: 324px;
+ 
+          
           width: 700px;
           color: #1c3f39;
           text-align: center;
@@ -188,8 +196,8 @@
         .ellipse {
           position: absolute;
           width: 210px;
-          left: 730px;
-          top: 112px;
+          left: 738px;
+          top: 108px;
         }
         p {
           width: 670px;

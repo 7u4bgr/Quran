@@ -1,9 +1,11 @@
 .background {
   background: #e9e6d7;
+  position: relative;
 }
 .background .images {
   display: flex;
   justify-content: space-between;
+  position: absolute;
 }
 .background .images .image1 {
   display: none;
@@ -14,10 +16,9 @@
 }
 .background .div .text {
   position: relative;
+  padding-top: 45px;
 }
 .background .div .text h2 {
-  position: absolute;
-  top: 50px;
   width: 339px;
   color: #1c3f39;
   text-align: center;
@@ -26,14 +27,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 46px;
+  margin-bottom: 12px;
 }
 .background .div .text .ellipse {
   position: absolute;
-  left: 179px;
-  top: 136px;
+  left: 177px;
+  top: 131px;
 }
 .background .div .text p {
-  position: absolute;
   width: 339px;
   color: #556561;
   text-align: center;
@@ -42,11 +43,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  top: 200px;
 }
 .background .div .buttons {
   display: flex;
   justify-content: space-between;
+  z-index: 20;
 }
 .background .div .buttons .button1 {
   display: flex;
@@ -102,13 +103,13 @@
   .background .images {
     display: flex;
     justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
   }
   .background .div .text {
     position: relative;
   }
   .background .div .text h2 {
-    position: absolute;
-    top: 50px;
     width: 539px;
     color: #1c3f39;
     text-align: center;
@@ -121,8 +122,8 @@
   .background .div .text .ellipse {
     position: absolute;
     width: 160px;
-    left: 310px;
-    top: 100px;
+    left: 312px;
+    top: 95px;
   }
   .background .div .text p {
     width: 600px;
@@ -149,7 +150,9 @@
   }
   .background .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
   }
   .background .images .image1 {
     display: flex;
@@ -160,12 +163,12 @@
     height: 839px;
   }
   .background .div .text {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .background .div .text h2 {
-    position: absolute;
-    top: 50px;
-    left: 324px;
     width: 700px;
     color: #1c3f39;
     text-align: center;
@@ -178,8 +181,8 @@
   .background .div .text .ellipse {
     position: absolute;
     width: 210px;
-    left: 730px;
-    top: 112px;
+    left: 738px;
+    top: 108px;
   }
   .background .div .text p {
     width: 670px;

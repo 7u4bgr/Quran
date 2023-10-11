@@ -34,8 +34,8 @@ const Results = () => {
           </CountUp> */
           <div className={styles.background}>
           <Wrapper>
-          <div className={styles.control}>
             <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+          <div className={styles.control}>
             <div className={styles.chapters}>
               <h2>
                 {counterOn && <CountUp duration={5} delay={0} end={30} />}
@@ -73,8 +73,8 @@ const Results = () => {
               </h2>
               <p>Madani Surahs</p>
             </div>
-        </ScrollTrigger>
           </div>
+        </ScrollTrigger>
       </Wrapper>
     </div>
   );

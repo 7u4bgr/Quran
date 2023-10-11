@@ -5,7 +5,7 @@ import Results from '../../components/result';
 const Home = () => {
   return <div>
     <Book/>
-    <Results/>
+    {/* <Results/> */}
   </div>;
 };
 

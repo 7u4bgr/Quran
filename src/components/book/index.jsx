@@ -22,7 +22,7 @@ const Book = () => {
             </p>
           </div>
           <div className={styles.buttons}>
-            <Button >
+            <Button>
               <div className={styles.button1}>
                 <ReadIcon />
                 <span>Read Quran</span>
@@ -35,10 +35,10 @@ const Book = () => {
               </div>
             </Button>
           </div>
-            <div className={styles.qurans}>
+          {/* <div className={styles.qurans}>
               <img className={styles.quran} src={Quran} alt="" />
               <img className={styles.readquran} src={Read} alt="" />
-            </div>
+            </div> */}
         </div>
       </Wrapper>
       <div className={styles.images}>
