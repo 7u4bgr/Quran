@@ -1,0 +1,217 @@
+.background {
+  background: #1c3f39;
+}
+.background .control {
+  padding-top: 55px;
+}
+.background .control .texts h2 {
+  position: relative;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+}
+.background .control .texts h2 img {
+  width: 115px;
+  position: absolute;
+  left: -6px;
+  top: 45px;
+  stroke-width: 3px;
+  stroke: #f2ac0d;
+}
+.background .control .texts p {
+  color: #b7cbc7;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding-top: 12px;
+}
+.background .images .img1 {
+  display: none;
+}
+.background .images .img2 {
+  display: none;
+}
+.background .images .img3 {
+  padding-top: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.background .images .img3 img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.background .images .img3 .text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  position: absolute;
+  top: 62.7%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(0, 0, 0, 0.5647058824);
+  width: 90%;
+  padding-top: 11px;
+}
+.background .images .img3 .text1 h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+}
+.background .images .img3 .text1 p {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.background .images .img3 .text1 .buttons {
+  padding-bottom: 5px;
+}
+.background .images .img3 .text1 .buttons button {
+  margin-top: 14px;
+  color: #1c3f39;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.background .icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 28px;
+  padding-bottom: 55px;
+  padding-left: 20px;
+}
+.background .icons .iconsback1 {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 10px;
+  rotate: -90deg;
+  border-radius: 8px;
+}
+.background .icons .round {
+  display: flex;
+  gap: 10px;
+}
+.background .icons .round button {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  border: none;
+  background: #556561;
+}
+.background .icons .iconsback2 {
+  background-color: white;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 10px;
+  rotate: 90deg;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .background .control .texts h2 img {
+    top: 10px;
+    left: 65%;
+    transform: translate(-65%);
+  }
+  .background .images .img3 .text1 {
+    width: 94.5%;
+    margin-top: 149.5px;
+  }
+}
+@media (min-width: 992px) {
+  .background .control {
+    padding-bottom: 20px;
+  }
+  .background .control .texts {
+    position: relative;
+  }
+  .background .control .texts h2 {
+    width: 370px;
+    position: absolute;
+    left: 99%;
+    transform: translate(-99%);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px; /* 123.81% */
+  }
+  .background .control .texts h2 img {
+    top: 63px;
+    width: 180px;
+    left: 79%;
+    transform: translate(-79%);
+  }
+  .background .control .texts p {
+    width: 370px;
+    position: absolute;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    left: 99%;
+    transform: translate(-99%);
+    top: 110px;
+  }
+  .background .images {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .background .images .img1 {
+    display: flex;
+  }
+  .background .images .img2 {
+    display: flex;
+  }
+  .background .images .img3 {
+    display: flex;
+    width: 370px;
+    padding-top: 0;
+  }
+  .background .images .img3 .text1 {
+    margin-top: 5px;
+    width: 90%;
+  }
+  .background .icons {
+    position: relative;
+  }
+  .background .icons .iconsback1 {
+    position: absolute;
+    left: 65.5%;
+    transform: translate(-65.5%);
+    bottom: 250px;
+  }
+  .background .icons .round {
+    position: absolute;
+    left: 70.5%;
+    transform: translate(-70.5%);
+    bottom: 239px;
+  }
+  .background .icons .iconsback2 {
+    position: absolute;
+    left: 72.5%;
+    transform: translate(-72.5%);
+    bottom: 200px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

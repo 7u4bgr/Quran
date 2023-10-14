@@ -17,8 +17,7 @@ const Book = () => {
       <Wrapper>
         <div className={styles.div}>
           <div className={styles.text}>
-            <h2>Make self-purification by reading Quran</h2>
-            <img className={styles.ellipse} src={Ellipse} alt='Ellipse' />
+            <h2>Make self-purification by reading Quran <img src={Ellipse} alt="Ellipse" /></h2>
             <p>
               Make self-purification by reading Quran. This website is all about
               holy quran. You can read, you can listen and you can learn so many
@@ -39,10 +38,10 @@ const Book = () => {
               </div>
             </Button>
           </div>
-          {/* <div className={styles.qurans}>
+          <div className={styles.qurans}>
               <img className={styles.quran} src={Quran} alt="" />
               <img className={styles.readquran} src={Read} alt="" />
-            </div> */}
+            </div>
         </div>
       </Wrapper>
     </div>

@@ -51,4 +51,29 @@ const AudioIcon = () => {
     </svg>
   );
 };
-export { UserIcon, ReadIcon ,AudioIcon};
+const AscendigIcon = ({color}) => {
+
+    
+  return(
+
+
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="14"
+    height="8"
+    viewBox="0 0 14 8"
+    fill="none"
+  >
+    <path
+      d="M1 7L6.997 1L13 7"
+      stroke={color}
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+  )
+};
+
+export { UserIcon, ReadIcon, AudioIcon, AscendigIcon };

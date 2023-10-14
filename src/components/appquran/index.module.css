@@ -1,0 +1,55 @@
+.background {
+  background: #1c3f39;
+  position: relative;
+}
+.background .vectors {
+  padding-top: 29px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.background .vectors .img1 {
+  display: none;
+}
+.background .vectors .img2 {
+  width: 100%;
+}
+.background .control {
+  position: relative;
+}
+.background .control .texts h2 {
+  width: 339px;
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+}
+
+@media (min-width: 768px) {
+  .background .vectors {
+    padding-top: 29px;
+  }
+  .background .vectors .img1 {
+    display: none;
+  }
+  .background .vectors .img2 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .background .vectors {
+    padding-top: 29px;
+    display: flex;
+    gap: 82px;
+  }
+  .background .vectors .img1 {
+    display: flex;
+    width: 100%;
+  }
+  .background .vectors .img2 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.module.css.map */

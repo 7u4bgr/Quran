@@ -1,0 +1,393 @@
+.background {
+  background: #e9e6d7;
+  .texts {
+    h2 {
+      position: relative;
+      width: 339px;
+      color: #1c3f39;
+      text-align: center;
+      font-family: Manrope;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 36px; /* 138.462% */
+      z-index: 0;
+      img {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  }
+  .sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      border-radius: 4px;
+      border: 1px solid #ccd3d2;
+      width: 127px;
+      height: 44px;
+      .button1 {
+        border-radius: 4px;
+        background: #26534c;
+        width: 64px;
+        color: #fff;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 171.429% */
+        border: none;
+        height: 34px;
+        margin-left: 5px;
+      }
+      .button2 {
+        height: 34px;
+        border-radius: 4px;
+        background-color: transparent;
+        width: 64px;
+        color: #1c3f39;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 24px; /* 171.429% */
+        border: none;
+      }
+    }
+    .ascendig {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      p {
+        color: #556561;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+      }
+      h2 {
+        color: #1c3f39;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+      }
+    }
+  }
+  .controls {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    margin-top: 38px;
+    .control {
+      padding: 22px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .number {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .first {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 38px;
+          height: 38px;
+          flex-shrink: 0;
+          border-radius: 6px;
+          background: #e9e6d7;
+          h2 {
+            color: #605e54;
+            text-align: center;
+
+            /* Button 3 */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 171.429% */
+          }
+        }
+        .fatihah {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            color: #1c3f39;
+
+            /* H3 Semi Bold */
+            font-family: Manrope;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px; /* 150% */
+          }
+          p {
+            color: #556561;
+
+            /* P3 */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 171.429% */
+          }
+        }
+      }
+      .texts1 {
+        display: flex;
+        flex-direction: column;
+        h2 {
+          color: #1c3f39;
+          text-align: right;
+
+          /* H3 Medium */
+          font-family: Manrope;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px; /* 150% */
+        }
+        p {
+          color: #556561;
+          text-align: right;
+
+          /* P3 */
+          font-family: Manrope;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 171.429% */
+        }
+      }
+    }
+  }
+  .showbutton {
+    display: flex;
+    justify-content: center;
+    padding-top: 38px;
+    padding-bottom: 100px;
+    button {
+      color: #1c3f39;
+      text-align: center;
+
+      /* Button 1 */
+      font-family: Manrope;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .background {
+    .texts {
+      display: flex;
+      justify-content: center;
+      h2 {
+        font-size: 36px;
+        width: 400px;
+        img {
+          width: 230px;
+          top: 35px;
+        }
+      }
+    }
+    .sort {
+      margin-top: 16px;
+      .buttons {
+        .button1 {
+          font-size: 16px;
+        }
+        .button2 {
+          font-size: 16px;
+        }
+      }
+      .ascendig {
+        p {
+          font-size: 16px;
+        }
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .background {
+    .texts {
+      display: flex;
+      justify-content: center;
+      h2 {
+        font-size: 42px;
+        width: 400px;
+        line-height: 52px;
+        width: 470px;
+        img {
+          width: 230px;
+          top: 52px;
+          width: 290px;
+        }
+      }
+    }
+    .sort {
+      margin-top: 16px;
+      .buttons {
+        width: 184px;
+        height: 54px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        .button1 {
+          font-size: 16px;
+          width: 86px;
+          height: 42px;
+          flex-shrink: 0;
+          line-height: 25px;
+        }
+        .button2 {
+          font-size: 16px;
+          width: 86px;
+          height: 42px;
+          flex-shrink: 0;
+          line-height: 25px;
+        }
+      }
+      .ascendig {
+        p {
+          font-size: 16px;
+        }
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 48px;
+      .control {
+        padding: 22px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .number {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          .first {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #e9e6d7;
+            h2 {
+              color: #605e54;
+              text-align: center;
+
+              /* Button 3 */
+              font-family: Manrope;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px; /* 171.429% */
+            }
+          }
+          .fatihah {
+            display: flex;
+            flex-direction: column;
+            h2 {
+              color: #1c3f39;
+
+              /* H3 Semi Bold */
+              font-family: Manrope;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 30px; /* 150% */
+            }
+            p {
+              color: #556561;
+
+              /* P3 */
+              font-family: Manrope;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px; /* 171.429% */
+            }
+          }
+        }
+        .texts1 {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            color: #1c3f39;
+            text-align: right;
+
+            /* H3 Medium */
+            font-family: Manrope;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+          }
+          p {
+            color: #556561;
+            text-align: right;
+
+            /* P3 */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 171.429% */
+          }
+        }
+      }
+    }
+    .showbutton {
+      display: flex;
+      justify-content: center;
+      padding-top: 55px;
+      padding-bottom: 170px;
+      button {
+        color: #1c3f39;
+        text-align: center;
+
+        /* Button 1 */
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
+    }
+  }
+}

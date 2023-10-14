@@ -1,0 +1,367 @@
+.background {
+  background: #e9e6d7;
+}
+.background .texts h2 {
+  position: relative;
+  width: 339px;
+  color: #1c3f39;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+  z-index: 0;
+}
+.background .texts h2 img {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.background .sort {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.background .sort .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 4px;
+  border: 1px solid #ccd3d2;
+  width: 127px;
+  height: 44px;
+}
+.background .sort .buttons .button1 {
+  border-radius: 4px;
+  background: #26534c;
+  width: 64px;
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+  border: none;
+  height: 34px;
+  margin-left: 5px;
+}
+.background .sort .buttons .button2 {
+  height: 34px;
+  border-radius: 4px;
+  background-color: transparent;
+  width: 64px;
+  color: #1c3f39;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 24px; /* 171.429% */
+  border: none;
+}
+.background .sort .ascendig {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.background .sort .ascendig p {
+  color: #556561;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.background .sort .ascendig h2 {
+  color: #1c3f39;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.background .controls {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+  margin-top: 38px;
+}
+.background .controls .control {
+  padding: 22px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .controls .control .number {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.background .controls .control .number .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #e9e6d7;
+}
+.background .controls .control .number .first h2 {
+  color: #605e54;
+  text-align: center;
+  /* Button 3 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 171.429% */
+}
+.background .controls .control .number .fatihah {
+  display: flex;
+  flex-direction: column;
+}
+.background .controls .control .number .fatihah h2 {
+  color: #1c3f39;
+  /* H3 Semi Bold */
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+}
+.background .controls .control .number .fatihah p {
+  color: #556561;
+  /* P3 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.background .controls .control .texts1 {
+  display: flex;
+  flex-direction: column;
+}
+.background .controls .control .texts1 h2 {
+  color: #1c3f39;
+  text-align: right;
+  /* H3 Medium */
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+.background .controls .control .texts1 p {
+  color: #556561;
+  text-align: right;
+  /* P3 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.background .showbutton {
+  display: flex;
+  justify-content: center;
+  padding-top: 38px;
+  padding-bottom: 100px;
+}
+.background .showbutton button {
+  color: #1c3f39;
+  text-align: center;
+  /* Button 1 */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+
+@media (min-width: 768px) {
+  .background .texts {
+    display: flex;
+    justify-content: center;
+  }
+  .background .texts h2 {
+    font-size: 36px;
+    width: 400px;
+  }
+  .background .texts h2 img {
+    width: 230px;
+    top: 35px;
+  }
+  .background .sort {
+    margin-top: 16px;
+  }
+  .background .sort .buttons .button1 {
+    font-size: 16px;
+  }
+  .background .sort .buttons .button2 {
+    font-size: 16px;
+  }
+  .background .sort .ascendig p {
+    font-size: 16px;
+  }
+  .background .sort .ascendig h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .background .texts {
+    display: flex;
+    justify-content: center;
+  }
+  .background .texts h2 {
+    font-size: 42px;
+    width: 400px;
+    line-height: 52px;
+    width: 470px;
+  }
+  .background .texts h2 img {
+    width: 230px;
+    top: 52px;
+    width: 290px;
+  }
+  .background .sort {
+    margin-top: 16px;
+  }
+  .background .sort .buttons {
+    width: 184px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 6px;
+  }
+  .background .sort .buttons .button1 {
+    font-size: 16px;
+    width: 86px;
+    height: 42px;
+    flex-shrink: 0;
+    line-height: 25px;
+  }
+  .background .sort .buttons .button2 {
+    font-size: 16px;
+    width: 86px;
+    height: 42px;
+    flex-shrink: 0;
+    line-height: 25px;
+  }
+  .background .sort .ascendig p {
+    font-size: 16px;
+  }
+  .background .sort .ascendig h2 {
+    font-size: 18px;
+  }
+  .background .controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 48px;
+  }
+  .background .controls .control {
+    padding: 22px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .background .controls .control .number {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .background .controls .control .number .first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #e9e6d7;
+  }
+  .background .controls .control .number .first h2 {
+    color: #605e54;
+    text-align: center;
+    /* Button 3 */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+  }
+  .background .controls .control .number .fatihah {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .controls .control .number .fatihah h2 {
+    color: #1c3f39;
+    /* H3 Semi Bold */
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+  }
+  .background .controls .control .number .fatihah p {
+    color: #556561;
+    /* P3 */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .background .controls .control .texts1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .controls .control .texts1 h2 {
+    color: #1c3f39;
+    text-align: right;
+    /* H3 Medium */
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+  }
+  .background .controls .control .texts1 p {
+    color: #556561;
+    text-align: right;
+    /* P3 */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .background .showbutton {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 170px;
+  }
+  .background .showbutton button {
+    color: #1c3f39;
+    text-align: center;
+    /* Button 1 */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+  }
+}/*# sourceMappingURL=index.module.css.map */
