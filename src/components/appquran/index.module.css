@@ -1,6 +1,9 @@
 .background {
-  background: #1c3f39;
+  background-color: #1c3f39;
   position: relative;
+  background-image: url("../../assets/images/vector1.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
 }
 .background .vectors {
   padding-top: 29px;
@@ -15,7 +18,7 @@
   width: 100%;
 }
 .background .control {
-  position: relative;
+  height: 400px;
 }
 .background .control .texts h2 {
   width: 339px;
