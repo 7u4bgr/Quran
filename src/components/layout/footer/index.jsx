@@ -4,9 +4,9 @@ import Wrapper from "../../UI/wrapper";
 import Logo from "../../../assets/images/logo.svg";
 import {
   AscendigIcon,
-  FacebookIcon,
+  İnstagramIcon,
   LinkedinIcon,
-  TwitterIcon,
+  GmailIcon,
 } from "../../../icons";
 const Footer = () => {
   return (
@@ -17,15 +17,24 @@ const Footer = () => {
             <img src={Logo} alt="Logo" />
             <p>© 2023 UIHUT All Rights Reserved</p>
             <div className={styles.icons}>
-              <div className={styles.facebookicon}>
-                <FacebookIcon color={"white"} />
-              </div>
-              <div className={styles.linkedinicon}>
-                <LinkedinIcon />
-              </div>
-              <div className={styles.twittericon}>
-                <TwitterIcon />
-              </div>
+              <a href="https://www.instagram.com/abdlyvs/" target="_blank">
+                <div className={styles.instagramicon}>
+                  <İnstagramIcon color={"white"} />
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/elcin-abdullayev-583861229/"
+                target="_blank"
+              >
+                <div className={styles.linkedinicon}>
+                  <LinkedinIcon />
+                </div>
+              </a>
+              <a href="mailto:abdllyevv@gmail.com">
+                <div className={styles.gmailicon}>
+                  <GmailIcon />
+                </div>
+              </a>
             </div>
           </div>
           <div className={styles.text2}>
@@ -63,12 +72,11 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.controlicon}>
-            <a href="#top">
-          <div className={styles.up}>
-
-            <AscendigIcon color={"white"} />
-          </div>
-            </a>
+          <a href="#top">
+            <div className={styles.up}>
+              <AscendigIcon color={"white"} />
+            </div>
+          </a>
         </div>
         <hr />
         <div className={styles.language}>

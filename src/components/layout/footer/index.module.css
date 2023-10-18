@@ -31,7 +31,7 @@
   gap: 20px;
   padding-top: 20px;
 }
-.background .texts .text1 .icons .facebookicon {
+.background .texts .text1 .icons .instagramicon {
   background-color: #d1cdb7;
   width: 42px;
   height: 42px;
@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: center;
 }
-.background .texts .text1 .icons .facebookicon:hover {
+.background .texts .text1 .icons .instagramicon:hover {
   background-color: #F2AC0D;
   transition: 800ms;
 }
@@ -59,7 +59,7 @@
   background-color: #F2AC0D;
   transition: 800ms;
 }
-.background .texts .text1 .icons .twittericon {
+.background .texts .text1 .icons .gmailicon {
   background-color: #d1cdb7;
   width: 42px;
   height: 42px;
@@ -69,7 +69,7 @@
   align-items: center;
   justify-content: center;
 }
-.background .texts .text1 .icons .twittericon:hover {
+.background .texts .text1 .icons .gmailicon:hover {
   background-color: #F2AC0D;
   transition: 800ms;
 }
