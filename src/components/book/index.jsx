@@ -39,7 +39,7 @@ const Book = () => {
                 </div>
               </Button>
             </a>
-              <a href="https://mp3quran.net/eng" target="_blank">
+              <a href="https://quranicaudio.com/" target="_blank">
                 
             <Button color="transparent">
               <div className={styles.button2}>
