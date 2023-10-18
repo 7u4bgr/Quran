@@ -15,7 +15,7 @@ const Footer = () => {
         <div className={styles.texts}>
           <div className={styles.text1}>
             <img src={Logo} alt="Logo" />
-            <p>© 2022 UIHUT All Rights Reserved</p>
+            <p>© 2023 UIHUT All Rights Reserved</p>
             <div className={styles.icons}>
               <div className={styles.facebookicon}>
                 <FacebookIcon color={"white"} />
