@@ -3,6 +3,7 @@
   background: #f2ac0d;
   padding: 12px 15px;
   border: none;
+  cursor: pointer;
 }
 
 .transparentbutton {
@@ -10,4 +11,5 @@
   padding: 12px 15px;
   border-radius: 6px;
   border: 1px solid #556561;
+  cursor: pointer;
 }/*# sourceMappingURL=index.module.css.map */

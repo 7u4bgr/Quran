@@ -26,10 +26,13 @@ const Holy = () => {
               In addition to its religious significance, it is widely regarded
               as the finest work in Arabic literature.
             </p>
+            <a href="https://en.wikipedia.org/wiki/Quran" target="_blank">
+
             <Button>
                 
                 Learn More
             </Button>
+            </a>
           </div>
         </div>
       </Wrapper>

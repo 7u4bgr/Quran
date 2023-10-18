@@ -7,6 +7,7 @@ import Book2 from "../../assets/images/book2.png";
 import Book3 from "../../assets/images/book3.png";
 import Book4 from "../../assets/images/book4.png";
 import Button from '../UI/button'
+import Khuranpdf from '../../assets/files/Holy-Quran-English.pdf'
 const Blog = () => {
   return (
     <div className={styles.background}>
@@ -81,9 +82,12 @@ const Blog = () => {
 
           </div>
           <div className={styles.button1}>
+          <a href={Khuranpdf} target="_blank">
+
                 <Button>
                     Read All
                 </Button>
+            </a>
           </div>
         </div>
       </Wrapper>

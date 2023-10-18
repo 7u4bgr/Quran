@@ -5,7 +5,7 @@ import Logo from "../../../assets/images/logo.svg";
 import { UserIcon } from "../../../icons/";
 const Header = () => {
   return (
-    <div className={styles.background}>
+    <div id="top" className={styles.background}>
       <Wrapper>
         <div className={styles.div}>
           <div className={styles.nav}>

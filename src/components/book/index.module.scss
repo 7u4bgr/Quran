@@ -1,7 +1,8 @@
 .background {
   background: #e9e6d7;
   overflow: hidden;
-position: relative;
+  position: relative;
+
   .images {
     display: flex;
     justify-content: space-between;
@@ -38,7 +39,6 @@ position: relative;
         }
       }
       p {
-       
         width: 339px;
         color: #556561;
         text-align: center;
@@ -47,7 +47,6 @@ position: relative;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-    
       }
     }
     .buttons {
@@ -57,6 +56,7 @@ position: relative;
       position: relative;
       padding-top: 28px;
       padding-bottom: 36px;
+      
       .button1 {
         display: flex;
         align-items: center;
@@ -88,7 +88,6 @@ position: relative;
       gap: 10px;
       position: relative;
       .quran {
-        
         width: 195px;
 
         flex-shrink: 0;
@@ -96,7 +95,6 @@ position: relative;
         background: lightgray 50% / cover no-repeat;
       }
       .readquran {
-       
         width: 136px;
 
         flex-shrink: 0;
@@ -121,8 +119,6 @@ position: relative;
       .text {
         position: relative;
         h2 {
-          
-          
           position: relative;
           width: 539px;
           color: #1c3f39;
@@ -145,7 +141,7 @@ position: relative;
           font-size: 16px;
         }
       }
-      .buttons{
+      .buttons {
         justify-content: center;
         gap: 18px;
         padding-bottom: 55px;
@@ -153,14 +149,10 @@ position: relative;
       .qurans {
         gap: 20px;
         .quran {
-          
           width: 255px;
-
         }
         .readquran {
-          
           width: 225px;
-
         }
       }
     }
@@ -194,8 +186,6 @@ position: relative;
         justify-content: center;
         padding-top: 77px;
         h2 {
- 
-          
           width: 700px;
           color: #1c3f39;
           text-align: center;
@@ -204,7 +194,7 @@ position: relative;
           font-style: normal;
           font-weight: 700;
           line-height: 72px;
-          img{
+          img {
             position: absolute;
             width: 210px;
             left: 405px;
@@ -221,7 +211,7 @@ position: relative;
           padding-top: 24px;
         }
       }
-      .buttons{
+      .buttons {
         padding-top: 38px;
         gap: 22px;
         padding-bottom: 78px;

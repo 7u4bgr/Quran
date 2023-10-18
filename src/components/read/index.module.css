@@ -92,6 +92,7 @@
   margin-top: 38px;
 }
 .background .controls .control {
+  transition: 500ms;
   padding: 22px;
   flex-shrink: 0;
   border-radius: 6px;
@@ -99,6 +100,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.background .controls .control * {
+  transition: 500ms;
 }
 .background .controls .control .number {
   display: flex;
@@ -170,6 +174,30 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
+}
+.background .controls .control:hover {
+  background-color: #26534C;
+}
+.background .controls .control:hover * {
+  transition: 500ms;
+}
+.background .controls .control:hover .number .first {
+  background-color: white;
+}
+.background .controls .control:hover .number .first h2 {
+  color: black;
+}
+.background .controls .control:hover .number .fatihah h2 {
+  color: white;
+}
+.background .controls .control:hover .number .fatihah p {
+  color: #C3D0CF;
+}
+.background .controls .control:hover .texts1 h2 {
+  color: white;
+}
+.background .controls .control:hover .texts1 p {
+  color: #C3D0CF;
 }
 .background .showbutton {
   display: flex;

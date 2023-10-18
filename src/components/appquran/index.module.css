@@ -1,15 +1,15 @@
 .background {
   background-color: #1c3f39;
   position: relative;
-  background-image: url("../../assets/images/vector1.svg");
-  background-size: contain;
-  background-repeat: repeat-x;
+  overflow: hidden;
 }
 .background .vectors {
-  padding-top: 29px;
+  display: flex;
+  justify-content: space-between;
   position: absolute;
   top: 0;
-  left: 0;
+  z-index: 0;
+  padding-top: 29px;
 }
 .background .vectors .img1 {
   display: none;
@@ -18,9 +18,18 @@
   width: 100%;
 }
 .background .control {
-  height: 400px;
+  height: 355px;
+}
+.background .control .texts {
+  position: relative;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 .background .control .texts h2 {
+  position: relative;
   width: 339px;
   color: #fff;
   text-align: center;
@@ -30,16 +39,58 @@
   font-weight: 700;
   line-height: 36px; /* 138.462% */
 }
+.background .control .texts h2 img {
+  position: absolute;
+  top: 40px;
+  left: 52%;
+  transform: translate(-52%);
+}
+.background .control .texts p {
+  color: #b7cbc7;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.background .control .application {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 38px;
+  gap: 16px;
+}
 
 @media (min-width: 768px) {
   .background .vectors {
-    padding-top: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 58%;
   }
-  .background .vectors .img1 {
-    display: none;
+  .background .control {
+    height: 400px;
   }
-  .background .vectors .img2 {
-    width: 100%;
+  .background .control .texts h2 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .background .control .texts h2 img {
+    left: 57%;
+    transform: translate(-57%);
+    top: 60px;
+  }
+  .background .control .texts p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .background .control .application {
+    padding-top: 50px;
+    gap: 36px;
   }
 }
 @media (min-width: 992px) {
@@ -47,12 +98,34 @@
     padding-top: 29px;
     display: flex;
     gap: 82px;
+    width: 40%;
   }
   .background .vectors .img1 {
     display: flex;
-    width: 100%;
   }
-  .background .vectors .img2 {
-    width: 100%;
+  .background .control {
+    height: 440px;
+  }
+  .background .control .texts {
+    padding-top: 100px;
+  }
+  .background .control .texts h2 {
+    width: 600px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  .background .control .texts h2 img {
+    width: 104px;
+    top: 55px;
+    left: 51.5%;
+    transform: translate(-51.5%);
+  }
+  .background .control .texts p {
+    width: 570px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
   }
 }/*# sourceMappingURL=index.module.css.map */

@@ -39,7 +39,10 @@ const Imam = () => {
                 <h2>Abdul Rahman Al-Sudais</h2>
                 <p>Imam of Masjid al-Haram</p>
                 <div className={styles.buttons}>
+                <a href="https://mp3quran.net/eng" target="_blank">
+
                   <Button>Listen Now</Button>
+                  </a>
                 </div>
               </div>
             </div>

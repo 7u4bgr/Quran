@@ -21,8 +21,9 @@
         line-height: 36px; /* 138.462% */
         img {
           position: absolute;
-          left: 164px;
-          top: 13px;
+          left: 75%;
+       
+          top: 15px;
           width: 70px;
         }
       }
@@ -77,16 +78,16 @@
             border-radius: 0.5px;
             background: #26534c;
             border: none;
-            margin-left: 0;
+            margin: 0;
           }
           p {
             width: 166px;
             color: #556561;
             font-family: Manrope;
-            font-size: 10px;
+            font-size: 6px;
             font-style: normal;
             font-weight: 400;
-            line-height: 16px; /* 160% */
+            line-height: 10px;
           }
           button {
             color: #1c3f39;
@@ -97,8 +98,8 @@
             line-height: 16px; /* 160% */
             background-color: transparent;
             border: none;
-            margin-right: 116px;
-            padding: 0;
+            padding-right: 100px;
+            padding-left: 0;
           }
         }
       }
@@ -147,6 +148,7 @@
             p {
               font-size: 12px;
               width: 220px;
+              line-height: 16px;
             }
             button {
               margin-right: 170px;
@@ -191,7 +193,7 @@
         padding-top: 70px;
         gap: 30px;
         .control1 {
-          width: 40%;
+          width: 46%;
           .img1 {
             img {
               width: 234px;
@@ -218,7 +220,7 @@
               border: 1px;
             }
             button {
-              margin-right: 200px;
+              margin-right: 100px;
               font-size: 14px;
               font-weight: 600;
               line-height: 24px;
