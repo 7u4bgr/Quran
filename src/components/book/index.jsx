@@ -30,7 +30,7 @@ const Book = () => {
             </p>
           </div>
           <div className={styles.buttons}>
-            <a href={Khuranpdf} target="_blank">
+            <a href='https://previous.quran.com/' target="_blank">
 
               <Button>
                 <div className={styles.button1}>

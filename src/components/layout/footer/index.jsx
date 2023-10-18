@@ -46,11 +46,26 @@ const Footer = () => {
           </div>
           <div className={styles.text3}>
             <h2>Network</h2>
+            <a href="https://quranicaudio.com/" target="_blank">
+
             <p>QuranicAudio.com</p>
+            </a>
+            <a href="https://salah.com/" target="_blank">
+
             <p>Salah.com</p>
+            </a>
+            <a href="https://sunnah.com/" target="_blank">
+
             <p>Sunnah.com</p>
+            </a>
+            <a href="https://legacy.quran.com/" target="_blank">
+
             <p>Legacy.Quran.com</p>
+            </a>
+            <a href="https://previous.quran.com/" target="_blank">
+
             <p>Previous.Quran.com</p>
+            </a>
           </div>
           <div className={styles.text4}>
             <h2>Popular Links</h2>
