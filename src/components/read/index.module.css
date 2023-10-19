@@ -93,6 +93,7 @@
 }
 .background .controls .control {
   transition: 500ms;
+  text-decoration: none;
   padding: 22px;
   flex-shrink: 0;
   border-radius: 6px;

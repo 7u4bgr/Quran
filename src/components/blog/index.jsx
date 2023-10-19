@@ -34,7 +34,10 @@ const Blog = () => {
                 How many times bismillah repeated in Quran? “In the name of God
                 the most merciful...
               </p>
+              <a href="https://en.wikipedia.org/wiki/Quran_code#:~:text=The%20Quran%20consists%20of%20114,114%20is%2019%C3%976." target="_blank">
+
               <button>Read More</button>
+              </a>
             </div>
           </div>
           <div className={styles.control1}>
@@ -48,7 +51,10 @@ const Blog = () => {
                 How many times bismillah repeated in Quran? “In the name of God
                 the most merciful...
               </p>
+              <a href="https://en.wikipedia.org/wiki/Quran_code#:~:text=The%20Quran%20consists%20of%20114,114%20is%2019%C3%976." target="_blank">
+
               <button>Read More</button>
+              </a>
             </div>
           </div>
           <div className={styles.control1}>
@@ -62,7 +68,10 @@ const Blog = () => {
                 How many times bismillah repeated in Quran? “In the name of God
                 the most merciful...
               </p>
+              <a href="https://en.wikipedia.org/wiki/Quran_code#:~:text=The%20Quran%20consists%20of%20114,114%20is%2019%C3%976." target="_blank">
+
               <button>Read More</button>
+              </a>
             </div>
           </div>
           <div className={styles.control1}>
@@ -76,13 +85,16 @@ const Blog = () => {
                 How many times bismillah repeated in Quran? “In the name of God
                 the most merciful...
               </p>
+              <a href="https://en.wikipedia.org/wiki/Quran_code#:~:text=The%20Quran%20consists%20of%20114,114%20is%2019%C3%976." target="_blank">
+
               <button>Read More</button>
+              </a>
             </div>
           </div>
 
           </div>
           <div className={styles.button1}>
-          <a href={Khuranpdf} target="_blank">
+          <a href="https://previous.quran.com/?locale=ur" target="_blank">
 
                 <Button>
                     Read All

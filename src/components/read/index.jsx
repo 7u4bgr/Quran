@@ -17,7 +17,10 @@ const Read = ({data}) => {
         <div className={styles.sort}>
           <div className={styles.buttons}>
             <button className={styles.button1}>Surah</button>
+            <a href="https://quran.com/juz/1" target="_blank">
+
             <button className={styles.button2}>Juz</button>
+            </a>
           </div>
           <div className={styles.ascendig}>
             <p>Sort by:</p>
@@ -28,7 +31,7 @@ const Read = ({data}) => {
         <div className={styles.controls}>
 
       {data.map((item)=>(
-        <div key={item.id} className={styles.control}>
+        <a key={item.id} href={item.link} className={styles.control} target="_blank">
           <div className={styles.number}>
             <div className={styles.first}>
               <h2>{item.id}</h2>
@@ -42,15 +45,18 @@ const Read = ({data}) => {
             <h2>{item.arab}</h2>
             <p>{item.number}</p>
           </div>
-        </div>
+        </a>
 
       ))}
         </div>
+        <a href="https://quran.com/1" target="_blank">
+
         <div className={styles.showbutton}>
           <Button>
             Show More
           </Button>
         </div>
+        </a>
       </Wrapper>
     </div>
   );
