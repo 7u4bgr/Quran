@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../UI/wrapper";
 import Logo from "../../../assets/images/logo.svg";
 import { UserIcon } from "../../../icons/";
+import Modal from "../../modal";
 
 const Header = () => {
+  const [modal,setModal]=useState(false)
+
   return (
     <div id="top" className={styles.background}>
       <Wrapper>
@@ -39,13 +42,14 @@ const Header = () => {
               </a>
             </ul>
             <div className={styles.login}>
-              <button className={styles.button1}>Log in</button>
+              <button onClick={() => setModal(true)} className={styles.button1}>Log in</button>
               <button className={styles.button2}>Sign up</button>
             </div>
           </div>
           <hr className={styles.hr} />
         </div>
       </Wrapper>
+      <Modal/>
     </div>
   );
 };
