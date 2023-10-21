@@ -1,6 +1,10 @@
 .background {
   width: 30%;
+  height: 40px;
   background-color: black;
   position: fixed;
-  left: 20%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }/*# sourceMappingURL=index.module.css.map */
