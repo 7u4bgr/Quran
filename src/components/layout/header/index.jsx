@@ -4,9 +4,11 @@ import Wrapper from "../../UI/wrapper";
 import Logo from "../../../assets/images/logo.svg";
 import { UserIcon } from "../../../icons/";
 import Modal from "../../modal";
+import Signup from "../../signup";
 
 const Header = () => {
   const [modal,setModal]=useState(false)
+  const [signup,setSignup]=useState(false)
 
   return (
     <div id="top" className={styles.background}>
@@ -21,7 +23,7 @@ const Header = () => {
               </a>
               </div>
               <div className={styles.icons}>
-                <UserIcon />
+                <UserIcon/>
               </div>
             </div>
             <ul>
@@ -43,13 +45,15 @@ const Header = () => {
             </ul>
             <div className={styles.login}>
               <button onClick={() => setModal(true)} className={styles.button1}>Log in</button>
-              <button className={styles.button2}>Sign up</button>
+              <button onClick={()=> setSignup(true)} className={styles.button2}>Sign up</button>
             </div>
           </div>
           <hr className={styles.hr} />
         </div>
       </Wrapper>
-      <Modal/>
+      {modal ?<Modal setModal={setModal}/> :null}
+      {signup ?<Signup setSignup={setSignup}/>:null}
+
     </div>
   );
 };

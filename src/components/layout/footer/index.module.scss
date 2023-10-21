@@ -38,7 +38,7 @@
           justify-content: center;
         }
         .instagramicon:hover {
-          background-color: #F2AC0D;
+          background-color: #f2ac0d;
           transition: 800ms;
         }
         .linkedinicon {
@@ -52,7 +52,7 @@
           justify-content: center;
         }
         .linkedinicon:hover {
-          background-color: #F2AC0D;
+          background-color: #f2ac0d;
           transition: 800ms;
         }
         .gmailicon {
@@ -66,7 +66,7 @@
           justify-content: center;
         }
         .gmailicon:hover {
-          background-color: #F2AC0D;
+          background-color: #f2ac0d;
           transition: 800ms;
         }
       }
@@ -75,6 +75,14 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      h1 {
+        color: #1c3f39;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
       h2 {
         padding-bottom: 22px;
         padding-top: 28px;
@@ -85,6 +93,12 @@
         font-weight: 600;
         line-height: 30px; /* 166.667% */
       }
+      h2:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
       p {
         color: #556561;
         font-family: Manrope;
@@ -92,12 +106,26 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 175% */
+      }
+      p:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
       }
     }
     .text3 {
       display: flex;
       flex-direction: column;
       gap: 10px;
+      h1 {
+        color: #1c3f39;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
       h2 {
         padding-bottom: 22px;
         padding-top: 28px;
@@ -108,6 +136,12 @@
         font-weight: 600;
         line-height: 30px; /* 166.667% */
       }
+      h2:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
       p {
         color: #556561;
         font-family: Manrope;
@@ -115,12 +149,26 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 175% */
+      }
+      p:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
       }
     }
     .text4 {
       display: flex;
       flex-direction: column;
       gap: 10px;
+      h1 {
+        color: #1c3f39;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
       h2 {
         padding-bottom: 22px;
         padding-top: 28px;
@@ -131,6 +179,12 @@
         font-weight: 600;
         line-height: 30px; /* 166.667% */
       }
+      h2:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
       p {
         color: #556561;
         font-family: Manrope;
@@ -138,12 +192,26 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 175% */
+      }
+      p:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
       }
     }
     .text5 {
       display: flex;
       flex-direction: column;
       gap: 10px;
+      h1 {
+        color: #1c3f39;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+      }
       h2 {
         padding-bottom: 22px;
         padding-top: 28px;
@@ -154,6 +222,12 @@
         font-weight: 600;
         line-height: 30px; /* 166.667% */
       }
+      h2:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
+      }
       p {
         color: #556561;
         font-family: Manrope;
@@ -161,6 +235,12 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 175% */
+      }
+      p:hover {
+        background-color: #26534c;
+        color: white;
+        padding: 4px;
+        border-radius: 4px;
       }
     }
   }

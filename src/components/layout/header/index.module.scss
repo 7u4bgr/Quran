@@ -1,7 +1,7 @@
 .background {
   background: #e9e6d7;
   padding-bottom: 3px;
-  
+
   .div {
     .nav {
       display: flex;
@@ -9,26 +9,35 @@
       justify-content: space-between;
       padding-top: 11px;
       padding-bottom: 11px;
-      .logo{
+      .logo {
         display: flex;
         align-items: center;
         justify-content: center;
         .icons{
-          padding-left: 207px;
+          margin-left: 200px;
         }
       }
       ul {
         display: none;
-        li {
-          color: #556561;
-          text-align: center;
-
-          /* P2 */
-          font-family: Manrope;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 28px; /* 175% */
+        a{
+          text-decoration: none;
+          li {
+            color: #556561;
+            text-align: center;
+            
+            /* P2 */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+          }
+        }
+        li:hover{
+          background-color: #26534c;
+          color: white;
+          padding: 7px;
+          border-radius: 4px;
         }
       }
       .login {
@@ -43,6 +52,15 @@
           font-style: normal;
           font-weight: 600;
           line-height: 28px;
+        }
+        .button1:hover {
+          background-color: #26534c;
+          cursor: pointer;
+          border-radius: 4px;
+          color: white;
+          width: 117px;
+          height: 48px;
+          flex-shrink: 0;
         }
         .button2 {
           width: 117px;
@@ -59,9 +77,18 @@
           line-height: 28px;
           border: none;
         }
+        .button2:hover {
+          background-color: #e9e6d7;
+          cursor: pointer;
+          border-radius: 4px;
+          color: #26534c;
+          width: 117px;
+          height: 48px;
+          flex-shrink: 0;
+        }
       }
     }
-    .hr{
+    .hr {
       display: none;
     }
   }
@@ -73,7 +100,7 @@
         ul {
           display: none;
         }
-        .login{
+        .login {
           display: flex;
         }
       }
@@ -88,14 +115,14 @@
           display: flex;
           gap: 44px;
         }
-        .login{
+        .login {
           display: flex;
         }
       }
-      .hr{
+      .hr {
         display: block;
         background: #556561;
-       height: 1px;
+        height: 1px;
       }
     }
   }

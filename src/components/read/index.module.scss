@@ -220,15 +220,17 @@
         }
       }
   }
+  
   .showbutton {
     display: flex;
     justify-content: center;
     padding-top: 38px;
     padding-bottom: 100px;
+    text-decoration: none;
     button {
       color: #1c3f39;
       text-align: center;
-
+      text-decoration: none;
       /* Button 1 */
       font-family: Manrope;
       font-size: 18px;

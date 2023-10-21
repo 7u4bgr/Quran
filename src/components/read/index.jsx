@@ -49,7 +49,7 @@ const Read = ({data}) => {
 
       ))}
         </div>
-        <a href="https://quran.com/1" target="_blank">
+        <a style={{textDecoration:"none"}} href="https://quran.com/1" target="_blank">
 
         <div className={styles.showbutton}>
           <Button>

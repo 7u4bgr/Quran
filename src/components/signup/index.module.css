@@ -1,6 +1,6 @@
 .background {
   width: 90%;
-  height: 350px;
+  height: 550px;
   background-color: #26534c;
   position: fixed;
   left: 50%;
@@ -9,8 +9,10 @@
   z-index: 35;
   border-radius: 30px;
 }
-.background .control .text1 h2 {
+.background .control {
   padding-top: 20px;
+}
+.background .control .text1 h2 {
   color: #e9e6d7;
   text-align: center;
   font-family: Manrope;
@@ -21,11 +23,10 @@
 }
 .background .control .text2 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 }
 .background .control .text2 .text3 {
   display: flex;
@@ -49,9 +50,9 @@
   border: none;
   text-align: center;
   font-family: Manrope;
+  outline: none;
   font-style: normal;
   font-weight: 500;
-  outline: none;
   background-color: #e9e6d7;
 }
 .background .control .text2 .text3 input::-moz-placeholder {
@@ -63,11 +64,64 @@
 .background .control .text2 .text3 input:focus {
   border: 2px solid #F2AC0D;
 }
+.background .control .text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background .control .text4 h2 {
+  padding-top: 20px;
+  color: #e9e6d7;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+}
+.background .control .text4 .inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.background .control .text4 .inputs .input1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background .control .text4 .inputs .input1 h2 {
+  padding-top: 0;
+  color: #e9e6d7;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+.background .control .text4 .inputs .input1 input {
+  width: 20px;
+  height: 20px;
+  background-color: #e9e6d7;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 4px solid #e9e6d7;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.background .control .text4 .inputs .input1 input:checked {
+  background-color: #F2AC0D;
+}
 .background .button1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .background .button1 button {
   background-color: #e9e6d7;
@@ -89,20 +143,22 @@
 
 @media (min-width: 992px) {
   .background {
-    width: 30%;
-    height: 350px;
+    width: 50%;
+    height: 550px;
+  }
+  .background .control .text2 {
+    display: flex;
   }
   .background .control .text2 .text3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 40%;
   }
   .background .control .text2 .text3 input {
-    width: 40%;
-    outline: none;
+    width: 70%;
   }
-  .background .control .text2 .text3 input:focus {
-    border: 3px solid #F2AC0D;
+  .background .control .text4 .inputs {
+    gap: 70px;
   }
 }/*# sourceMappingURL=index.module.css.map */
