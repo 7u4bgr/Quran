@@ -2,7 +2,11 @@ import React from "react";
 import styles from "./index.module.css";
 const Modal = ({ setModal }) => {
   return (
-    <div className={styles.background}>
+    <>
+    <div onClick={()=>setModal(false)} className={styles.overlay}>
+
+    </div>
+    <div  className={styles.background}>
       <div className={styles.control}>
         <div className={styles.text1}>
           <h2>Login</h2>
@@ -24,6 +28,7 @@ const Modal = ({ setModal }) => {
       <button onClick={() => setModal(false)}>Login</button>
       </div>
     </div>
+    </>
     
 
      
